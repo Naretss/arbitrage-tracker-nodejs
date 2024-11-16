@@ -1,11 +1,17 @@
 {
   "name": "arbitrage-tracker-nodejs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Node.js arbitrage tracker using Bitkub and Binance APIs",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
 }
